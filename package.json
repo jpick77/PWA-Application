@@ -1,0 +1,39 @@
+{
+  "name": "pwa-application",
+  "version": "1.0.0",
+  "description": "client > src > js > database.js client > src > js > install.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd ./Develop/client && npm run build\" \"cd ./Develop/server && npm run server\" ",
+    "server": "cd ./Develop/server server.js --ignore client",
+    "build": "cd Develop/server && npm i && cd ../client && npm i && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpick77/PWA-Application"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^9.1.2",
+    "concurrently": "^7.6.0",
+    "express": "^4.18.2",
+    "heroku": "^8.0.2",
+    "if-env": "^1.0.4",
+    "nodemon": "^2.0.21",
+    "react": "^18.2.0",
+    "redux": "^4.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/jpick77/PWA-Application/issues"
+  },
+  "homepage": "https://github.com/jpick77/PWA-Application/blob/main/README.md",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "webpack": "^5.76.2",
+    "webpack-pwa-manifest": "^4.3.0",
+    "workbox-webpack-plugin": "^6.5.4"
+  }
+}
