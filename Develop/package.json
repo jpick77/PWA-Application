@@ -1,15 +1,10 @@
 {
-  "name": "JATE",
+  "name": "pwa-application",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+    "server": "nodemon server.js --ignore client"
   },
   "keywords": [],
   "author": "",
