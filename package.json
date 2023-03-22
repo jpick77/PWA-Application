@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jpick77/PWA-Application"
+    "url": "git+https://github.com/jpick77/PWA-Application.git"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +21,6 @@
     "express": "^4.18.2",
     "heroku": "^8.0.2",
     "if-env": "^1.0.4",
-    "node.js": "^0.0.1-security",
     "nodemon": "^2.0.21",
     "react": "^18.2.0",
     "redux": "^4.2.1"
